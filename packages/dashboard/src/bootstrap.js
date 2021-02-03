@@ -6,7 +6,7 @@ const mount = (el) => {
     app.mount(el);
 };
 
-// When is isolation mount immediately hi
+// When is isolation mount immediately
 if (process.env.NODE_ENV === 'development') {
     const devRoot = document.querySelector('#_dashboard-dev-root');
     if (devRoot) {
