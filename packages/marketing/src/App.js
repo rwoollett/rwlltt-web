@@ -7,7 +7,7 @@ import Pricing from "./components/Pricing";
 const generateClassName = createGenerateClassName({
     productionPrefix: 'ma'
 });
-
+// Hi
 export default ({history}) => {
     return (<div>
         <StylesProvider generateClassName={generateClassName}>
